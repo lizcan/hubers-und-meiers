@@ -1,10 +1,62 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-div{
+div {
   min-height: 100px;
   min-width: 100px;
   border: 1px solid black;
   margin: 5px;
+}
+
+.huber {
+  background-color: red;
+}
+
+.meier {
+  background-color: blue;
+}
+
+#lisa {
+  background-color: yellow;
+}
+
+/* #georg {
+  background-color: pink;
+}
+
+#susi {
+  background-color: pink;
+}
+
+oder */
+/* #georg,#susi {
+  background-color: pink;
+}
+
+oder */
+/* div wird von der I# geschlagen */
+.huber div {
+  background-color: pink;
+}
+
+#luis {
+  background-color: green;
+}
+
+#susi.meier {
+  background-color: lightblue;
+}
+
+#brigitte{
+  background-color: grey;
+}
+
+
+.meier #brigitte{
+  background-color: orange;
+}
+
+.meier div#brigitte{
+  background-color: lightblue
 }
